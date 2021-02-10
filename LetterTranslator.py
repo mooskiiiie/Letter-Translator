@@ -3,7 +3,7 @@ def translate(word):
   for letter in word:
     if letter in "AEIOUaeiou":
       translation += "g"
-     else:
+    else:
       translation += letter
   return translation
   
